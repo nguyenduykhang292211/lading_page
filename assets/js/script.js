@@ -71,15 +71,33 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.disabled = true;
             btn.style.opacity = '0.8';
 
-            // Mock API call simulation
-            setTimeout(() => {
-                btn.style.backgroundColor = '#10b981'; // Success green
-                btn.style.color = '#fff';
-                btn.style.border = 'none';
-                btn.textContent = `Thành công! Cảm ơn ${name}.`;
-                btn.style.opacity = '1';
-                
-                form.reset();
+            // Real AJAX submission using FormSubmit
+            fetch("https://formsubmit.co/ajax/vietwealth.vn@gmail.com", {
+                method: "POST",
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: name,
+                    phone: document.getElementById('phone').value,
+                    demand: document.getElementById('demand').value,
+                    _captcha: false
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.success) {
+                    btn.style.backgroundColor = '#10b981'; // Success green
+                    btn.style.color = '#fff';
+                    btn.style.border = 'none';
+                    btn.textContent = `Thành công! Cảm ơn ${name}.`;
+                    btn.style.opacity = '1';
+                    
+                    form.reset();
+                } else {
+                    btn.textContent = "Có lỗi xảy ra, vui lòng thử lại!";
+                }
 
                 setTimeout(() => {
                     btn.style.backgroundColor = '';
@@ -87,7 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     btn.textContent = originalText;
                     btn.disabled = false;
                 }, 5000);
-            }, 1800);
+            })
+            .catch(error => {
+                console.log(error);
+                btn.textContent = "Có lỗi kết nối, vui lòng thử lại!";
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                    btn.style.opacity = '1';
+                }, 3000);
+            });
         });
     }
 

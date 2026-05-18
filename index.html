@@ -299,21 +299,22 @@
                     </ul>
                 </div>
                 <div class="contact-form">
-                    <form id="leadForm">
+                    <form id="leadForm" action="https://formsubmit.co/vietwealth.vn@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
                         <div class="form-group">
                             <label for="name">Họ và Tên *</label>
-                            <input type="text" id="name" placeholder="Ví dụ: Nguyễn Văn A" required>
+                            <input type="text" id="name" name="name" placeholder="Ví dụ: Nguyễn Văn A" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Số điện thoại / Zalo *</label>
-                            <input type="tel" id="phone" placeholder="09xx xxx xxx" required>
+                            <input type="tel" id="phone" name="phone" placeholder="09xx xxx xxx" required>
                         </div>
                         <div class="form-group">
                             <label for="demand">Nhu cầu của bạn</label>
-                            <select id="demand" class="form-control">
-                                <option value="mo-tai-khoan">Mở tài khoản giao dịch mới</option>
-                                <option value="chuyen-id">Chuyển ID môi giới về VietWealth</option>
-                                <option value="co-cau-danh-muc">Tư vấn cơ cấu lại danh mục</option>
+                            <select id="demand" name="demand" class="form-control">
+                                <option value="Mở tài khoản giao dịch mới">Mở tài khoản giao dịch mới</option>
+                                <option value="Chuyển ID môi giới về VietWealth">Chuyển ID môi giới về VietWealth</option>
+                                <option value="Tư vấn cơ cấu lại danh mục">Tư vấn cơ cấu lại danh mục</option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary btn-full btn-large">Gửi Yêu Cầu Tư Vấn</button>
