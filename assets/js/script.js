@@ -58,65 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-in-up');
     fadeElements.forEach(el => observer.observe(el));
 
-    // 3. Form submission mock
-    const form = document.getElementById('leadForm');
-    if(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = document.getElementById('name').value;
-            const btn = form.querySelector('button');
-            
-            const originalText = btn.textContent;
-            btn.innerHTML = 'Đang xử lý <span style="display:inline-block; animation: pulse 1s infinite">...</span>';
-            btn.disabled = true;
-            btn.style.opacity = '0.8';
-
-            // Real AJAX submission using FormSubmit
-            fetch("https://formsubmit.co/ajax/vietwealth.vn@gmail.com", {
-                method: "POST",
-                headers: { 
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify({
-                    name: name,
-                    phone: document.getElementById('phone').value,
-                    demand: document.getElementById('demand').value,
-                    _captcha: false
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if(data.success) {
-                    btn.style.backgroundColor = '#10b981'; // Success green
-                    btn.style.color = '#fff';
-                    btn.style.border = 'none';
-                    btn.textContent = `Thành công! Cảm ơn ${name}.`;
-                    btn.style.opacity = '1';
-                    
-                    form.reset();
-                } else {
-                    btn.textContent = "Có lỗi xảy ra, vui lòng thử lại!";
-                }
-
-                setTimeout(() => {
-                    btn.style.backgroundColor = '';
-                    btn.style.color = '';
-                    btn.textContent = originalText;
-                    btn.disabled = false;
-                }, 5000);
-            })
-            .catch(error => {
-                console.log(error);
-                btn.textContent = "Có lỗi kết nối, vui lòng thử lại!";
-                setTimeout(() => {
-                    btn.textContent = originalText;
-                    btn.disabled = false;
-                    btn.style.opacity = '1';
-                }, 3000);
-            });
-        });
-    }
+    // 3. Form submission handled via native HTML form action to FormSubmit
+    // No JS interception needed to avoid CORS errors when opening file locally.
 
     // 4. Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
