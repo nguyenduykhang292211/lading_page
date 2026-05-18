@@ -299,8 +299,11 @@
                     </ul>
                 </div>
                 <div class="contact-form">
-                    <form id="leadForm" action="https://formsubmit.co/vietwealth.vn@gmail.com" method="POST">
-                        <input type="hidden" name="_captcha" value="false">
+                    <form id="leadForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p style="display: none;">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
                         <div class="form-group">
                             <label for="name">Họ và Tên *</label>
                             <input type="text" id="name" name="name" placeholder="Ví dụ: Nguyễn Văn A" required>
