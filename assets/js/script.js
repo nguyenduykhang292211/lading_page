@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nav_services: 'Dịch vụ',
             nav_team: 'Đội ngũ',
             nav_cta: 'Mở Tài Khoản Ngay',
-            
+
             // Hero
             hero_badge: '🌟 Đội Ngũ Xuất Sắc VietWealth 2025',
             hero_title: 'Đầu Tư Khôn Ngoan,<br> Sinh Lời <span class="highlight">Bền Vững</span>.',
@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
             hero_cta2: 'Khám Phá Dịch Vụ',
             hero_stat1: 'Lợi Nhuận TB/Năm',
             hero_stat2: 'Hiệu Suất 2025',
-            
+
             // Ticker
             ticker_1: 'VietWealth - Uy tín hơn 25 năm',
             ticker_2: 'Khuyến nghị độc quyền Room VIP',
             ticker_3: 'Mở tài khoản eKYC trong 3 phút',
             ticker_4: 'Báo cáo vĩ mô và chiến lược định kỳ',
-            
+
             // About
             about_title: 'Triết Lý <span class="highlight">Đầu Tư</span>',
             about_subtitle: 'Khác biệt tạo nên sự an tâm và lợi nhuận vượt trội trên thị trường',
@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
             about_card2_desc: 'Sàng lọc khắt khe các doanh nghiệp có nền tảng cơ bản vững chắc, hưởng lợi từ vĩ mô và có chất xúc tác (catalyst) tăng trưởng rõ ràng.',
             about_card3_title: 'Nhạy Bén Dòng Tiền',
             about_card3_desc: 'Kết hợp phân tích kỹ thuật và dấu chân dòng tiền thông minh (Smart Money) để tối ưu hóa điểm ra/vào lệnh, đón đầu các sóng ngành.',
-            
+
             // Stats
             stat_profit: 'Lợi Nhuận TB/Năm',
             stat_exp: 'Năm Kinh Nghiệm',
-            
+
             // Services
             services_title: 'Dịch Vụ <span class="highlight">Đặc Quyền</span>',
             services_subtitle: 'Hệ sinh thái giải pháp tài chính cá nhân hóa',
@@ -56,21 +56,21 @@ document.addEventListener('DOMContentLoaded', () => {
             svc3_li1: '✓ Báo cáo chiến lược đầu tháng',
             svc3_li2: '✓ Cập nhật KQKD quý sớm nhất',
             svc3_li3: '✓ Định giá cổ phiếu tiềm năng',
-            
+
             // Team
             team_title: 'Đội Ngũ <span class="highlight">Chuyên Gia</span>',
             team_subtitle: 'Những người "thuyền trưởng" dẫn dắt danh mục của bạn qua mọi con sóng',
-            member1_role: 'Trưởng nhóm Chuyên viên Tư vấn tài chính',
+            member1_role: 'Trưởng nhóm Tư vấn tài chính',
             member2_role: 'Chuyên viên tư vấn tài chính',
             member3_role: 'Chuyên viên tư vấn tài chính',
-            member4_role: 'Chuyên viên tư vấn tài chính',
+            member4_role: 'Chuyên viên phân tích đầu tư',
             member5_role: 'Chuyên viên tư vấn tài chính',
-            
+
             // CTA
             cta_title: 'Không Còn Phải Đầu Tư TrONG <span class="highlight">Lo Lắng</span>',
             cta_desc: 'Hãy để chúng tôi giúp bạn xây dựng một danh mục phòng thủ vững chắc khi thị trường giảm, và tấn công quyết liệt khi cơ hội đến.',
             cta_btn: 'Tham Gia Room Zalo Trải Nghiệm',
-            
+
             // Contact
             contact_title: 'Đồng Hành Cùng <span class="highlight">VietWealth</span>',
             contact_desc: 'Điền form dưới đây để đăng ký mở tài khoản (miễn phí) hoặc nhận một bản review danh mục hiện tại của bạn từ các chuyên gia.',
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             form_opt2: 'Chuyển ID môi giới về VietWealth',
             form_opt3: 'Tư vấn cơ cấu lại danh mục',
             form_submit: 'Gửi Yêu Cầu Tư Vấn',
-            
+
             // Footer
             footer_desc: 'Giải pháp đầu tư chứng khoán chuyên nghiệp, minh bạch và hiệu quả.',
             footer_explore: 'Khám Phá',
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_fees: 'Bảng phí giao dịch',
             footer_disclaimer: 'Miễn trừ trách nhiệm',
             footer_copy: '© 2026 Bản quyền thuộc về Nhóm Môi Giới VietWealth. Không phải là lời khuyên đầu tư bắt buộc.',
-            
+
             // Form success/error
             form_processing: 'Đang xử lý',
             form_success: 'Thành công! Cảm ơn bạn.',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nav_services: 'Services',
             nav_team: 'Team',
             nav_cta: 'Open Account Now',
-            
+
             // Hero
             hero_badge: '🌟 VietWealth Outstanding Team 2025',
             hero_title: 'Invest Wisely,<br> Earn <span class="highlight">Sustainably</span>.',
@@ -117,13 +117,13 @@ document.addEventListener('DOMContentLoaded', () => {
             hero_cta2: 'Explore Services',
             hero_stat1: 'Avg. Return/Year',
             hero_stat2: 'Performance 2025',
-            
+
             // Ticker
             ticker_1: 'VietWealth - Trusted for 25+ years',
             ticker_2: 'Exclusive VIP Room recommendations',
             ticker_3: 'Open eKYC account in 3 minutes',
             ticker_4: 'Macro reports & periodic strategies',
-            
+
             // About
             about_title: 'Investment <span class="highlight">Philosophy</span>',
             about_subtitle: 'The difference that brings peace of mind and outstanding returns',
@@ -133,11 +133,11 @@ document.addEventListener('DOMContentLoaded', () => {
             about_card2_desc: 'Rigorous screening for companies with strong fundamentals, macro tailwinds and clear growth catalysts.',
             about_card3_title: 'Smart Money Flow',
             about_card3_desc: 'Combining technical analysis and Smart Money footprint tracking to optimize entry/exit points and ride sector waves.',
-            
+
             // Stats
             stat_profit: 'Avg. Return/Year',
             stat_exp: 'Years of Experience',
-            
+
             // Services
             services_title: 'Premium <span class="highlight">Services</span>',
             services_subtitle: 'Personalized financial solution ecosystem',
@@ -156,21 +156,21 @@ document.addEventListener('DOMContentLoaded', () => {
             svc3_li1: '✓ Monthly strategy reports',
             svc3_li2: '✓ Earliest quarterly earnings updates',
             svc3_li3: '✓ Stock valuation picks',
-            
+
             // Team
             team_title: 'Expert <span class="highlight">Team</span>',
             team_subtitle: 'The "captains" steering your portfolio through every market wave',
-            member1_role: 'Team Lead, Financial Advisor',
+            member1_role: 'Head of Investment Advisory',
             member2_role: 'Financial Advisor',
             member3_role: 'Financial Advisor',
-            member4_role: 'Financial Advisor',
+            member4_role: 'Financial Analyst',
             member5_role: 'Financial Advisor',
-            
+
             // CTA
             cta_title: 'No More Investing IN <span class="highlight">Fear</span>',
             cta_desc: 'Let us help you build a solid defensive portfolio when the market dips, and attack decisively when opportunity strikes.',
             cta_btn: 'Join Zalo Experience Room',
-            
+
             // Contact
             contact_title: 'Partner With <span class="highlight">VietWealth</span>',
             contact_desc: 'Fill the form below to register for a free account or receive a portfolio review from our experts.',
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
             form_opt2: 'Transfer brokerage ID to VietWealth',
             form_opt3: 'Portfolio restructuring advisory',
             form_submit: 'Submit Consultation Request',
-            
+
             // Footer
             footer_desc: 'Professional, transparent and effective stock investment solutions.',
             footer_explore: 'Explore',
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_fees: 'Transaction fees',
             footer_disclaimer: 'Disclaimer',
             footer_copy: '© 2026 VietWealth Brokerage Team. This is not mandatory investment advice.',
-            
+
             // Form success/error
             form_processing: 'Processing',
             form_success: 'Success! Thank you.',
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbar = document.querySelector('.navbar');
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
-    
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    if(mobileBtn) {
+    if (mobileBtn) {
         mobileBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                
+
                 // Trigger counter animation if it's a stat item
                 const counters = entry.target.querySelectorAll('.counter');
                 if (counters.length > 0) {
@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             const target = +counter.getAttribute('data-target');
                             const count = +counter.innerText;
                             const inc = target / 50; // Speed of counting
-                            
+
                             if (count < target) {
                                 counter.innerText = Math.ceil(count + inc);
                                 setTimeout(updateCount, 40);
@@ -319,13 +319,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Form submission handled via Netlify Forms (AJAX)
     const form = document.getElementById('leadForm');
-    if(form) {
+    if (form) {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const btn = form.querySelector('button');
             const originalText = btn.textContent;
             const dict = translations[currentLang];
-            
+
             btn.innerHTML = `${dict.form_processing} <span style="display:inline-block; animation: pulse 1s infinite">...</span>`;
             btn.disabled = true;
             btn.style.opacity = '0.8';
@@ -337,31 +337,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
                 body: new URLSearchParams(formData).toString()
             })
-            .then(() => {
-                btn.style.backgroundColor = '#10b981'; // Success green
-                btn.style.color = '#fff';
-                btn.style.border = 'none';
-                btn.textContent = dict.form_success;
-                btn.style.opacity = '1';
-                
-                form.reset();
-
-                setTimeout(() => {
-                    btn.style.backgroundColor = '';
-                    btn.style.color = '';
-                    btn.textContent = originalText;
-                    btn.disabled = false;
-                }, 5000);
-            })
-            .catch((error) => {
-                console.log(error);
-                btn.textContent = dict.form_error;
-                setTimeout(() => {
-                    btn.textContent = originalText;
-                    btn.disabled = false;
+                .then(() => {
+                    btn.style.backgroundColor = '#10b981'; // Success green
+                    btn.style.color = '#fff';
+                    btn.style.border = 'none';
+                    btn.textContent = dict.form_success;
                     btn.style.opacity = '1';
-                }, 3000);
-            });
+
+                    form.reset();
+
+                    setTimeout(() => {
+                        btn.style.backgroundColor = '';
+                        btn.style.color = '';
+                        btn.textContent = originalText;
+                        btn.disabled = false;
+                    }, 5000);
+                })
+                .catch((error) => {
+                    console.log(error);
+                    btn.textContent = dict.form_error;
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.disabled = false;
+                        btn.style.opacity = '1';
+                    }, 3000);
+                });
         });
     }
 
@@ -371,10 +371,10 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             navLinks.classList.remove('active'); // Close mobile menu if open
             const targetId = this.getAttribute('href');
-            if(targetId === '#') return;
-            
+            if (targetId === '#') return;
+
             const targetElement = document.querySelector(targetId);
-            if(targetElement) {
+            if (targetElement) {
                 const headerOffset = 80;
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
