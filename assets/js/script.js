@@ -60,11 +60,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Team
             team_title: 'Đội Ngũ <span class="highlight">Chuyên Gia</span>',
             team_subtitle: 'Những người "thuyền trưởng" dẫn dắt danh mục của bạn qua mọi con sóng',
-            member1_role: 'Trưởng nhóm bộ phận tư vấn đầu tư',
-            member2_role: 'Chuyên viên tư vấn tài chính',
-            member3_role: 'Chuyên viên tư vấn tài chính',
-            member4_role: 'Chuyên viên phân tích đầu tư',
-            member5_role: 'Chuyên viên tư vấn tài chính',
+            member1_role: 'Trưởng Bộ phận Tư vấn Đầu tư',
+            member2_role: 'Chuyên viên Tư vấn Tài chính',
+            member3_role: 'Chuyên viên Tư vấn Tài chính',
+            member4_role: 'Chuyên viên Phân tích Đầu tư',
+            member5_role: 'Chuyên viên Tư vấn Tài chính',
 
             // CTA
             cta_title: 'Không Còn Phải Đầu Tư TrONG <span class="highlight">Lo Lắng</span>',
